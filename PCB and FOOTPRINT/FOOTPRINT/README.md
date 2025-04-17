@@ -22,11 +22,11 @@ This repository provides a complete, **custom-built Altium Designer component** 
 ## 🖼️ Visual Previews
 
 ### 1. 📐 Schematic Symbol
-![Symbol View](images/symbol_view.png)
+![Symbol View](PCB and FOOTPRINT/FOOTPRINT/Screenshot 2025-04-16 145335.png)
 > Clean hierarchical layout with labeled I/O banks and global nets.
 
 ### 2. 📏 PCB Footprint
-![Footprint View](images/footprint_view.png)
+![Footprint View](PCB and FOOTPRINT/FOOTPRINT/Screenshot 2025-04-16 145350.png)
 > Accurate footprint with verified pad locations and silkscreen pin labels.
 
 ### 3. 🧱 3D Model (Optional)
@@ -147,7 +147,7 @@ I have designed and implemented a **Maze Solver Robot** powered by the **VSD Squ
 
 ## 👨‍💻 Author
 
-**Your Name**  
+Gowtham.T 
 Electronics Design Engineer | FPGA Enthusiast  
 [LinkedIn or GitHub profile link]
 
