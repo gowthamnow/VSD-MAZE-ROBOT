@@ -39,7 +39,6 @@ The **VSDSquadron FPGA Mini (FM)** is a compact and cost-effective development b
   - DPRAM: 120Kb
   - Multipliers: 8
 
-- **Connectivity:** FTDI FT232H USB-to-SPI for programming and communication
 
 - **GPIO:** 32 accessible FPGA GPIOs
 
@@ -47,7 +46,7 @@ The **VSDSquadron FPGA Mini (FM)** is a compact and cost-effective development b
 
 - **LED Indicators:** RGB LED for status indication
 
-- **Power Regulation:** Onboard 3.3V and 1.2V regulators with external supply option
+- **Power Regulation:** Onboard 3.3V regulators with external supply option
 
 - **Dimensions:** 57mm x 29mm
 
@@ -90,37 +89,6 @@ Clone the repository:
 cd ~
 git clone https://github.com/gowthamnow/VSD-MAZE-ROBOT
 ```
----
-
-## 🗂 FPGA IO Pin Mapping (Partial)
-| FPGA Pin     | Type             | Bank | Notes / Connections                 |
-|------------- |------------------|------|-------------------------------------|
-| IOB 0a       | PIO              | 2    | Pin 46                              |
-| IOB 2a       | DPIO             | 2    | TRUE of IOB 3b - Pin 47             |
-| IOB 3b       | DPIO/GBIN        | 2    | COMP of IOB 2a - Pin 44             |
-| IOB 4a       | DPIO             | 2    | TRUE of IOB 5b - Pin 48             |
-| IOB 5b       | DPIO             | 2    | COMP of IOB 4a - Pin 45             |
-| IOB 6a       | PIO              | 2    | Pin 2                               |
-| IOB 8a       | DPIO             | 2    | TRUE of IOB 9b - Pin 4              |
-| IOB 9b       | DPIO             | 2    | COMP of IOB 8a - Pin 3              |
-| ...          | ...              | ...  | ...                                 |
-| IOB 32a      | SPI SO           | SPI  | Pin 14                              |
-| IOB 33b      | SPI SI           | SPI  | Pin 17                              |
-| IOB 34a      | SPI SCK          | SPI  | Pin 15                              |
-| IOB 35b      | SPI SS           | SPI  | Pin 16                              |
-| RGB0         | LED              | -    | Pin 39                              |
-| RGB1         | LED              | -    | Pin 40                              |
-| RGB2         | LED              | -    | Pin 41                              |
-
-**Note:** Full pin mapping available in the datasheet.
-
----
-
-## 🟢 Power and Other Signals
-- **VCC (Core Power):** Pins 5, 30
-- **VCCIO (I/O Power):** Pins 1 (VCCIO2), 22 (SPI VCCIO1), 33 (VCCIO0)
-- **GND:** Ground - Paddle and multiple pins
-- **VPP (Programming Power):** Pin 24 (2.5V)
 
 ---
 
@@ -129,9 +97,8 @@ git clone https://github.com/gowthamnow/VSD-MAZE-ROBOT
 ---
 ## 📌 Additional Features
 - **4MB SPI Flash**
-- **FTDI FT232H USB to SPI**
 - **RGB LED indicators**
-- **Onboard 3.3V and 1.2V Regulators**
+- **Onboard 3.3V**
 - **32 GPIO accessible for prototyping**
 - **Form Factor:** 57mm x 29mm, Height: Top 8mm, Bottom 1mm
 
