@@ -88,7 +88,7 @@ sudo apt-get install yosys nextpnr-ice40 icestorm iverilog -y
 Clone the repository:
 ```bash
 cd ~
-git clone https://github.com/vsdip/vsdfpga_labs
+git clone https://github.com/gowthamnow/VSD-MAZE-ROBOT
 ```
 ---
 
