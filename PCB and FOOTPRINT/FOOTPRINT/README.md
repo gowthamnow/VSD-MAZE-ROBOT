@@ -22,11 +22,11 @@ This repository provides a complete, **custom-built Altium Designer component** 
 ## 🖼️ Visual Previews
 
 ### 1. 📐 Schematic Symbol
-![Symbol View](IAMGES/symbol_view.png)
+![Symbol View](images/symbol_view.png)
 > Clean hierarchical layout with labeled I/O banks and global nets.
 
 ### 2. 📏 PCB Footprint
-![Footprint View](IMAGES/Screenshot.png)
+![Footprint View](images/Screenshot.png)
 > Accurate footprint with verified pad locations and silkscreen pin labels.
 
 ### 3. 🧱 3D Model (Optional)
