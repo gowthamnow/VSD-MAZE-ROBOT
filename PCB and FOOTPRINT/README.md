@@ -15,24 +15,38 @@ This project involves a **fully custom-designed PCB** for a **maze-solving robot
 
 ## 🖼️ Visual Previews
 
-### 1. 📐 Schematic Symbol
-![Symbol View](images/Screenshot1.png)
+### 1. 📐 Schematic 
+
+![Schematic View](images/Screenshot1.png)
+
 > Clean hierarchical layout with labeled I/O banks and global nets.
 
-### 2. 📏 PCB Footprint
-![Footprint View](images/Screenshot2.png)
+### 2. 📏 Layout
+
+
+![Layout View](images/Screenshot2.png)
+
 > Accurate footprint with verified pad locations and silkscreen pin labels.
 
 ### 3. 🧱 3D Model (Optional)
+
+
 ![3D Model View](images/Screenshot3.png)
+
 > Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
 
-### 3. 🧱 3D Model (Optional)
-![3D Model View](images/symbol_view.png)
+### 4. 🧱 Schematic symbol
+
+
+![Symbol View](images/symbol_view.png)
+
 > Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
 
-### 3. 🧱 3D Model (Optional)
-![3D Model View](images/Screenshot.png.png)
+### 5. 🧱 PCB Footprint
+
+
+![Footprint View](images/Screenshot.png)
+
 > Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
 
 
@@ -64,16 +78,7 @@ This project involves a **fully custom-designed PCB** for a **maze-solving robot
 │   ├── Schematic (PDF/KiCad)  
 │   ├── PCB Layout (Gerber files + 3D preview)  
 │   ├── **Custom Footprints** (FPGA, motor driver, sensors)  
-│   └── BOM (Bill of Materials)  
-├── **/Firmware/**  
-│   ├── FPGA (Verilog/VHDL for maze-solving logic)  
-│   └── Microcontroller (C++ for sensor/motor control)  
-├── **/Mechanical/**  
-│   ├── Robot Chassis (STL for 3D printing)  
-│   └── Mounting Guides  
-└── **/Documentation/**  
-    ├── Datasheets (FPGA, TB6612FNG, HC-SR04)  
-    └── Maze-Solving Algorithm Explanation  
+│   └── BOM (Bill of Materials)   
 ```
 
 ---
@@ -100,24 +105,6 @@ This project involves a **fully custom-designed PCB** for a **maze-solving robot
   - Motor speed diagnostics  
 
 ---
-
-## **⚙️ Setup & Calibration**  
-1. **Assemble the PCB**  
-   - Solder components following the **schematic & BOM**.  
-   - Verify **power rails** (5V, 3.3V) before connecting FPGA.  
-
-2. **Upload Firmware**  
-   - Program the FPGA with **maze-solving logic** (Verilog/VHDL).  
-   - Flash the microcontroller (if used) for **sensor/motor control**.  
-
-3. **Calibrate Sensors & Motors**  
-   - Adjust **ultrasonic sensor thresholds** (min/max range).  
-   - Tune **PID constants** for motor control (if using encoders).  
-
-4. **Test in Maze Environment**  
-   - Start with **simple mazes** (no loops).  
-   - Gradually increase complexity (dead-ends, loops).  
-
 ---
 
 ## **📜 License & Collaboration**  
