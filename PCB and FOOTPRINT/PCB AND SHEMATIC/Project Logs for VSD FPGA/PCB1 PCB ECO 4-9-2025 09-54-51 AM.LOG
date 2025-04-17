@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=ECHO 1 Pin=*-2
+Removed Pin From Net: NetName=ECHO 2 Pin=*-3
+Removed Pin From Net: NetName=ECHO 3 Pin=*-4
+Removed Pin From Net: NetName=TRG 1 Pin=*-6
+Added Pin To Net: NetName=ECHO 3 Pin=*-2
+Added Pin To Net: NetName=TRG 3 Pin=*-3
+Added Pin To Net: NetName=TRG 1 Pin=*-4
+Added Pin To Net: NetName=ECHO 1 Pin=*-6

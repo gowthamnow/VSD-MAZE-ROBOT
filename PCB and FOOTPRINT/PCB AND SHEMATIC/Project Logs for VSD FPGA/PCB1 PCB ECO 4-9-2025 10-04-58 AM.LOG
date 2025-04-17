@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=TX Pin=*-18
+Removed Pin From Net: NetName=AIN1 Pin=*-28
+Removed Pin From Net: NetName=AIN2 Pin=*-31
+Removed Pin From Net: NetName=PWMB Pin=*-32
+Removed Pin From Net: NetName=BIN1 Pin=*-34
+Removed Pin From Net: NetName=BIN2 Pin=*-35
+Removed Pin From Net: NetName=STD Pin=*-36
+Added Pin To Net: NetName=TX Pin=*-26
+Added Pin To Net: NetName=BIN1 Pin=*-28
+Added Pin To Net: NetName=BIN2 Pin=*-31
+Added Pin To Net: NetName=STD Pin=*-32
+Added Pin To Net: NetName=AIN1 Pin=*-34
+Added Pin To Net: NetName=AIN2 Pin=*-35
+Added Pin To Net: NetName=PWMA Pin=*-36

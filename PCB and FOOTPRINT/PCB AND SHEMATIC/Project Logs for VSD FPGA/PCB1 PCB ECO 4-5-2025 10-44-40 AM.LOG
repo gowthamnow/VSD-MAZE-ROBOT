@@ -1,0 +1,9 @@
+Added Component: Designator=*(VSD_FPGA12)
+Added Pin To Net: NetName=STD Pin=*-28
+Added Pin To Net: NetName=TRG 2 Pin=*-31
+Added Pin To Net: NetName=BIN2 Pin=*-32
+Added Pin To Net: NetName=B01 Pin=*-34
+Added Pin To Net: NetName=A02 Pin=*-35
+Added Pin To Net: NetName=3.3V Pin=*-36
+Added Pin To Net: NetName=TX Pin=*-37
+Added Member To Class: ClassName=Sheet1 Member=Component * VSD_FPGA

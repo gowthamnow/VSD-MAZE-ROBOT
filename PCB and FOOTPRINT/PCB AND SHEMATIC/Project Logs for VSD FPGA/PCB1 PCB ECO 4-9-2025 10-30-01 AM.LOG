@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=C4 Pin=*-43
+Removed Pin From Net: NetName=LED3 Pin=*-44
+Removed Pin From Net: NetName=LED2 Pin=*-45
+Removed Pin From Net: NetName=LED1 Pin=*-46
+Change Component Designator: OldDesignator=J5 NewDesignator=J?
+Added Pin To Net: NetName=C3 Pin=*-43
+Added Pin To Net: NetName=C4 Pin=*-44
+Added Pin To Net: NetName=LED3 Pin=*-45
+Added Pin To Net: NetName=LED2 Pin=*-46
+Added Pin To Net: NetName=LED1 Pin=*-47

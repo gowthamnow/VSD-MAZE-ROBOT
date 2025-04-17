@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=PWMA Pin=*-27
+Added Pin To Net: NetName=PWMB Pin=*-27

@@ -1,0 +1,50 @@
+Added Component: Designator=J9(SULLINS_PPTC041LFBN-RC)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Sullins Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PPTC041LFBN-RC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J10(SULLINS_PPTC041LFBN-RC)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Sullins Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PPTC041LFBN-RC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ECHO 1 Pin=J5-1
+Added Pin To Net: NetName=TRG 1 Pin=J5-2
+Added Pin To Net: NetName=ECHO 2 Pin=J5-3
+Added Pin To Net: NetName=TRG 2 Pin=J5-4
+Added Pin To Net: NetName=ECHO 3 Pin=J5-5
+Added Pin To Net: NetName=TRG 3 Pin=J5-6
+Added Pin To Net: NetName=LED1 Pin=J5-7
+Added Pin To Net: NetName=LED2 Pin=J5-8
+Added Pin To Net: NetName=STD Pin=J6-2
+Added Pin To Net: NetName=PWMB Pin=J6-3
+Added Pin To Net: NetName=PWMA Pin=J6-4
+Added Pin To Net: NetName=BIN2 Pin=J6-5
+Added Pin To Net: NetName=BIN1 Pin=J6-6
+Added Pin To Net: NetName=AIN2 Pin=J6-7
+Added Pin To Net: NetName=AIN1 Pin=J6-8
+Added Pin To Net: NetName=GND Pin=J7-3
+Added Pin To Net: NetName=C4 Pin=J7-4
+Added Pin To Net: NetName=C3 Pin=J7-5
+Added Pin To Net: NetName=C2 Pin=J7-6
+Added Pin To Net: NetName=C1 Pin=J7-7
+Added Pin To Net: NetName=LED3 Pin=J7-8
+Added Pin To Net: NetName=GND Pin=J9-1
+Added Pin To Net: NetName=GND Pin=J9-2
+Added Pin To Net: NetName=VCC Pin=J9-4
+Added Pin To Net: NetName=VCC Pin=J10-1
+Added Pin To Net: NetName=GND Pin=J10-2
+Added Pin To Net: NetName=3.3V Pin=J9-3
+Added Net: Name=3.3V
+Added Pin To Net: NetName=RX Pin=J7-1
+Added Pin To Net: NetName=RX Pin=J10-4
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=J7-2
+Added Pin To Net: NetName=TX Pin=J10-3
+Added Net: Name=TX
+Added Member To Class: ClassName=Sheet1 Member=Component J9 PPTC041LFBN-RC
+Added Member To Class: ClassName=Sheet1 Member=Component J10 PPTC041LFBN-RC

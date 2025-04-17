@@ -1,0 +1,28 @@
+Added Component: Designator=*(VSD_FPGA2)
+Added Pin To Net: NetName=ECHO 1 Pin=*-2
+Added Pin To Net: NetName=ECHO 2 Pin=*-3
+Added Pin To Net: NetName=ECHO 3 Pin=*-4
+Added Pin To Net: NetName=VCC Pin=*-5V
+Added Pin To Net: NetName=TRG 1 Pin=*-6
+Added Pin To Net: NetName=TRG 2 Pin=*-9
+Added Pin To Net: NetName=TRG 3 Pin=*-10
+Added Pin To Net: NetName=LED1 Pin=*-11
+Added Pin To Net: NetName=LED2 Pin=*-12
+Added Pin To Net: NetName=LED3 Pin=*-13
+Added Pin To Net: NetName=TX Pin=*-18
+Added Pin To Net: NetName=C1 Pin=*-21
+Added Pin To Net: NetName=C2 Pin=*-23
+Added Pin To Net: NetName=C3 Pin=*-25
+Added Pin To Net: NetName=C4 Pin=*-26
+Added Pin To Net: NetName=PWMA Pin=*-27
+Added Pin To Net: NetName=AIN1 Pin=*-28
+Added Pin To Net: NetName=AIN2 Pin=*-31
+Added Pin To Net: NetName=PWMB Pin=*-32
+Added Pin To Net: NetName=BIN1 Pin=*-34
+Added Pin To Net: NetName=BIN2 Pin=*-35
+Added Pin To Net: NetName=STD Pin=*-36
+Added Pin To Net: NetName=RX Pin=*-37
+Added Pin To Net: NetName=GND Pin=*-GND
+Added Pin To Net: NetName=GND Pin=*-GND
+Added Pin To Net: NetName=GND Pin=*-GND
+Added Member To Class: ClassName=Sheet1 Member=Component * VSD_FPGA

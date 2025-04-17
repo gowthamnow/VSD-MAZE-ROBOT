@@ -1,0 +1,237 @@
+Added Component: Designator=J1(TE_87220-8)
+Add component (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Centerline_Pitch"; Value = "2.54 mm[.1 in]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/87220-8/TE%20Connectivity%20AMP%20Connectors/view-part/500526/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "87220-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number_of_Positions"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product_Type"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/87220-8/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/87220-8/TE%20Connectivity%20AMP%20Connectors/view-part/500526/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(SULLINS_PPTC061LFBN-RC)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PPTC061LFBNRC/Sullins/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Sullins Connector Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PPTC061LFBNRC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PPTC061LFBNRC/Sullins/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J3(SULLINS_PPTC061LFBN-RC)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PPTC061LFBNRC/Sullins/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Sullins Connector Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PPTC061LFBNRC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PPTC061LFBNRC/Sullins/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J4(SULLINS_PPTC061LFBN-RC)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PPTC061LFBNRC/Sullins/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Sullins Connector Solutions"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PPTC061LFBNRC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PPTC061LFBNRC/Sullins/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J5(TE_87220-8)
+Add component (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Centerline_Pitch"; Value = "2.54 mm[.1 in]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/87220-8/TE%20Connectivity%20AMP%20Connectors/view-part/500526/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "87220-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number_of_Positions"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product_Type"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/87220-8/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/87220-8/TE%20Connectivity%20AMP%20Connectors/view-part/500526/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J6(TE_87220-8)
+Add component (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Centerline_Pitch"; Value = "2.54 mm[.1 in]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/87220-8/TE%20Connectivity%20AMP%20Connectors/view-part/500526/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "87220-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number_of_Positions"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product_Type"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/87220-8/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/87220-8/TE%20Connectivity%20AMP%20Connectors/view-part/500526/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J7(TE_87220-8)
+Add component (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Centerline_Pitch"; Value = "2.54 mm[.1 in]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/87220-8/TE%20Connectivity%20AMP%20Connectors/view-part/500526/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "87220-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number_of_Positions"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product_Type"; Value = "Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/87220-8/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/87220-8/TE%20Connectivity%20AMP%20Connectors/view-part/500526/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J8(SULLINS_PPTC041LFBN-RC)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Sullins Connector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PPTC041LFBN-RC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PPTC041LFBN-RC/Sullins/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U1(XCVR_HC-SR04)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "HC-SR04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U2(XCVR_HC-SR04)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "HC-SR04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U3(XCVR_HC-SR04)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "HC-SR04"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U4(MODULE_ROB-14450)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ROB-14450/SparkFun%20Electronics/view-part/2656367/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "SparkFun Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ROB-14450"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ROB-14450/SparkFun%20Electronics/view-part/2656367/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=7.4V Pin=J8-1
+Added Net: Name=7.4V
+Added Pin To Net: NetName=A01 Pin=J2-1
+Added Pin To Net: NetName=A01 Pin=U4-4
+Added Net: Name=A01
+Added Pin To Net: NetName=A02 Pin=J2-6
+Added Pin To Net: NetName=A02 Pin=U4-5
+Added Net: Name=A02
+Added Pin To Net: NetName=AIN1 Pin=U4-14
+Added Net: Name=AIN1
+Added Pin To Net: NetName=AIN2 Pin=U4-15
+Added Net: Name=AIN2
+Added Pin To Net: NetName=B01 Pin=J3-1
+Added Pin To Net: NetName=B01 Pin=U4-7
+Added Net: Name=B01
+Added Pin To Net: NetName=B02 Pin=J3-6
+Added Pin To Net: NetName=B02 Pin=U4-6
+Added Net: Name=B02
+Added Pin To Net: NetName=BIN1 Pin=U4-12
+Added Net: Name=BIN1
+Added Pin To Net: NetName=BIN2 Pin=U4-11
+Added Net: Name=BIN2
+Added Pin To Net: NetName=C1 Pin=J2-3
+Added Net: Name=C1
+Added Pin To Net: NetName=C2 Pin=J2-4
+Added Net: Name=C2
+Added Pin To Net: NetName=C3 Pin=J3-3
+Added Net: Name=C3
+Added Pin To Net: NetName=C4 Pin=J3-4
+Added Net: Name=C4
+Added Pin To Net: NetName=ECHO 1 Pin=U1-3
+Added Net: Name=ECHO 1
+Added Pin To Net: NetName=ECHO 2 Pin=U2-3
+Added Net: Name=ECHO 2
+Added Pin To Net: NetName=ECHO 3 Pin=U3-3
+Added Net: Name=ECHO 3
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J4-4
+Added Pin To Net: NetName=GND Pin=J4-6
+Added Pin To Net: NetName=GND Pin=J8-2
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GND Pin=U4-8
+Added Pin To Net: NetName=GND Pin=U4-9
+Added Net: Name=GND
+Added Pin To Net: NetName=LED1 Pin=J4-1
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=J4-3
+Added Net: Name=LED2
+Added Pin To Net: NetName=LED3 Pin=J4-5
+Added Net: Name=LED3
+Added Pin To Net: NetName=NetLabel87 Pin=J5-1
+Added Net: Name=NetLabel87
+Added Pin To Net: NetName=NetLabel88 Pin=J5-2
+Added Net: Name=NetLabel88
+Added Pin To Net: NetName=NetLabel89 Pin=J5-3
+Added Net: Name=NetLabel89
+Added Pin To Net: NetName=NetLabel90 Pin=J5-4
+Added Net: Name=NetLabel90
+Added Pin To Net: NetName=NetLabel91 Pin=J5-5
+Added Net: Name=NetLabel91
+Added Pin To Net: NetName=NetLabel92 Pin=J5-6
+Added Net: Name=NetLabel92
+Added Pin To Net: NetName=NetLabel93 Pin=J5-7
+Added Net: Name=NetLabel93
+Added Pin To Net: NetName=NetLabel94 Pin=J5-8
+Added Net: Name=NetLabel94
+Added Pin To Net: NetName=NetLabel95 Pin=J7-3
+Added Net: Name=NetLabel95
+Added Pin To Net: NetName=NetLabel96 Pin=J7-4
+Added Net: Name=NetLabel96
+Added Pin To Net: NetName=NetLabel97 Pin=J7-5
+Added Net: Name=NetLabel97
+Added Pin To Net: NetName=NetLabel98 Pin=J7-7
+Added Net: Name=NetLabel98
+Added Pin To Net: NetName=NetLabel99 Pin=J7-8
+Added Net: Name=NetLabel99
+Added Pin To Net: NetName=NetLabel100 Pin=J7-6
+Added Net: Name=NetLabel100
+Added Pin To Net: NetName=NetLabel102 Pin=J7-2
+Added Net: Name=NetLabel102
+Added Pin To Net: NetName=NetLabel103 Pin=J7-1
+Added Net: Name=NetLabel103
+Added Pin To Net: NetName=NetLabel104 Pin=J6-8
+Added Net: Name=NetLabel104
+Added Pin To Net: NetName=NetLabel105 Pin=J6-7
+Added Net: Name=NetLabel105
+Added Pin To Net: NetName=NetLabel106 Pin=J6-6
+Added Net: Name=NetLabel106
+Added Pin To Net: NetName=NetLabel107 Pin=J6-5
+Added Net: Name=NetLabel107
+Added Pin To Net: NetName=NetLabel109 Pin=J6-3
+Added Net: Name=NetLabel109
+Added Pin To Net: NetName=NetLabel110 Pin=J6-2
+Added Net: Name=NetLabel110
+Added Pin To Net: NetName=NetLabel111 Pin=J6-1
+Added Net: Name=NetLabel111
+Added Pin To Net: NetName=PWMA Pin=U4-16
+Added Net: Name=PWMA
+Added Pin To Net: NetName=PWMB Pin=U4-10
+Added Net: Name=PWMB
+Added Pin To Net: NetName=STD Pin=U4-13
+Added Net: Name=STD
+Added Pin To Net: NetName=TRG 1 Pin=U1-2
+Added Net: Name=TRG 1
+Added Pin To Net: NetName=TRG 2 Pin=U2-2
+Added Net: Name=TRG 2
+Added Pin To Net: NetName=TRG 3 Pin=U3-2
+Added Net: Name=TRG 3
+Added Pin To Net: NetName=VCC Pin=J2-5
+Added Pin To Net: NetName=VCC Pin=J3-5
+Added Pin To Net: NetName=VCC Pin=J8-3
+Added Pin To Net: NetName=VCC Pin=U1-1
+Added Pin To Net: NetName=VCC Pin=U2-1
+Added Pin To Net: NetName=VCC Pin=U3-1
+Added Pin To Net: NetName=VCC Pin=U4-1
+Added Pin To Net: NetName=VCC Pin=U4-2
+Added Net: Name=VCC
+Added Class: Name=Sheet1

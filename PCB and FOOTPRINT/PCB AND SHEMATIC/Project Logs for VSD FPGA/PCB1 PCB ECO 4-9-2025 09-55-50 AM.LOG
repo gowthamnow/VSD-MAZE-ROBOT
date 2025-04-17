@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=TRG 3 Pin=*-10
+Added Pin To Net: NetName=ECHO 2 Pin=*-10

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=TRG 2 Pin=*-32
+Removed Pin From Net: NetName=TRG 1 Pin=*-34
+Add Pin To Net: Unknown Pin: Pin *-28
+Add Pin To Net: Unknown Pin: Pin *-31
+Added Pin To Net: NetName=BIN2 Pin=*-32
+Added Pin To Net: NetName=B01 Pin=*-34
+Add Pin To Net: Unknown Pin: Pin *-35
+Add Pin To Net: Unknown Pin: Pin *-36
+Add Pin To Net: Unknown Pin: Pin *-37
