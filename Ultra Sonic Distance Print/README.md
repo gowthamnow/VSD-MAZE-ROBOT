@@ -136,8 +136,8 @@ ascii_data = (distance_cm / 10000) % 10 + 8'd48;  // Extract each digit and add 
 
 ### 8.1 Build Flow
 ```bash
-git clone https://github.com/Skandakm29/Real-Time-Sensor-Data-Acquisition-and-Transmission-System.git
-cd Real-Time-Sensor-Data-Acquisition-and-Transmission-System
+git clone https://github.com/gowthamnow/VSD-MAZE-ROBOT
+cd 
 make build  # Yosys + nextpnr + icepack
 ```
 
