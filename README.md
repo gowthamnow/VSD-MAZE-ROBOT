@@ -74,18 +74,22 @@ The **VSDSquadron FPGA Mini (FM)** is a compact and cost-effective development b
 Install the following tools before proceeding:
 
 # General dependencies
+```bash
 sudo apt-get install git vim autoconf automake autotools-dev curl libmpc-dev \
 libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool \
 patchutils bc zlib1g-dev libexpat1-dev gtkwave picocom -y
+```
 
 # FPGA toolchain (Yosys/NextPNR/IceStorm)
+```bash
 sudo apt-get install yosys nextpnr-ice40 icestorm iverilog -y
-
+```
 # Setup
 Clone the repository:
+```bash
 cd ~
 git clone https://github.com/vsdip/vsdfpga_labs
-
+```
 ---
 
 ## 🗂 FPGA IO Pin Mapping (Partial)
