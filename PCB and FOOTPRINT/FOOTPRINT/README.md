@@ -147,9 +147,8 @@ I have designed and implemented a **Maze Solver Robot** powered by the **VSD Squ
 
 ## 👨‍💻 Author
 
-**Your Name**  
+**Gowtham.T**  
 Electronics Design Engineer | FPGA Enthusiast  
-[LinkedIn or GitHub profile link]
 
 ---
 

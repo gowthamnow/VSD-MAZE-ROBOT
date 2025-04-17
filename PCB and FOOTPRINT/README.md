@@ -1,160 +1,120 @@
-# 🧠 VSD Squadron FSM FPGA – Altium Symbol & Footprint Library
-
-This repository provides a complete, **custom-built Altium Designer component** for the **VSD Squadron FSM FPGA**, including schematic symbol and PCB footprint. The library is designed with precision according to the official pinout and layout specifications provided by VSD and the underlying iCE40UP5K or iCE40 family FPGA IC.
-
-> ✅ Optimized for use in VSD's open-source FPGA flow and embedded systems integration.
+# **📌 Maze-Solving Robot: Custom PCB Footprint & Hardware Design**  
+### **FPGA-Based Autonomous Robot with Ultrasonic Navigation & Motor Control**  
 
 ---
 
-## 🧩 Component Overview
-
-| Attribute            | Description                                              |
-|---------------------|----------------------------------------------------------|
-| **Component Name**  | `VSD_FSM_FPGA`                                           |
-| **Target FPGA**     | iCE40UP5K (via VSD Squadron FSM)                         |
-| **Pads/Footprint**  | Dual-row header pads with 2.54mm pitch                   |
-| **Pin Count**       | 42 (based on board I/O breakout availability)           |
-| **Symbol Type**     | Hierarchical/Flat symbol with named I/O groupings        |
-| **Pin Mapping**     | Verified against VSD FSM FPGA board documentation        |
+## **🔍 Project Overview**  
+This project involves a **fully custom-designed PCB** for a **maze-solving robot** built around the **VSD Squadron FM FPGA**. The robot autonomously navigates through complex maze environments using:  
+- **3x Ultrasonic Sensors** (HC-SR04) for real-time obstacle detection  
+- **TB6612FNG Motor Driver** for precise dual-motor control  
+- **Quadrature Encoder Motors** for accurate odometry  
+- **Bluetooth (HC-05/06)** for wireless monitoring & control  
+- **Custom FPGA Footprint** for seamless hardware integration  
 
 ---
 
-## 🖼️ Visual Previews
+## **🛠️ Hardware Architecture**  
+### **1️⃣ Custom PCB Design Features**  
+✔ **Optimized FPGA Footprint** – Designed specifically for the **VSD Squadron FM FPGA** to ensure proper pin-mapping and signal integrity.  
+✔ **Dual-Motor Control Circuit** – TB6612FNG-driven H-bridge for **bidirectional PWM motor control**.  
+✔ **Multi-Sensor Interface** – Supports **3x HC-SR04 ultrasonic sensors** (front, left, right).  
+✔ **Encoder Feedback System** – Quadrature encoder inputs for **precise movement tracking**.  
+✔ **Bluetooth UART Communication** – Wireless debugging & manual override capability.  
+✔ **Power Regulation** – **5V (sensors, motors) + 3.3V (FPGA, logic)** with noise filtering.  
 
-### 1. 📐 Schematic Symbol
-![Symbol View](images/symbol_view.png)
-> Clean hierarchical layout with labeled I/O banks and global nets.
-
-### 2. 📏 PCB Footprint
-![Footprint View](images/footprint_view.png)
-> Accurate footprint with verified pad locations and silkscreen pin labels.
-
-### 3. 🧱 3D Model (Optional)
-![3D Model View](images/3d_model.png)
-> Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
-
----
-
-## 📐 Footprint Specifications
-
-| Feature                    | Value                              |
-|----------------------------|------------------------------------|
-| **Pad Pitch**              | 2.54 mm                            |
-| **Pin Diameter (hole)**    | 0.9 mm                             |
-| **Silkscreen**             | Top layer pin 1 marker, labels     |
-| **Mounting Holes**         | Optional – depends on your PCB     |
-| **Grid Alignment**         | 100 mil compatible                 |
-| **Solder Mask Expansion**  | Default (based on Altium rules)    |
-
-> 📌 Fully compliant with IPC-7351B for through-hole design.
+### **2️⃣ Key Components**  
+| Component | Role |  
+|-----------|------|  
+| **VSD Squadron FM FPGA** | Core logic (pathfinding, sensor fusion) |  
+| **TB6612FNG Motor Driver** | Drives 2x DC motors (PWM + direction control) |  
+| **HC-SR04 Ultrasonic Sensors (x3)** | Detects walls at 3 angles (180° coverage) |  
+| **Encoder Motors (with Hall-effect sensors)** | Tracks wheel rotation for dead-reckoning |  
+| **HC-05 Bluetooth Module** | Wireless telemetry & manual control |  
+| **Custom PCB** | Unifies all components with minimal wiring |  
 
 ---
 
-## 🧠 Symbol Design Details
-
-- Power pins (`VCC`, `GND`) grouped at top/bottom for readability
-- GPIOs organized by **Bank** or **Functionality** (e.g., `UART_TX`, `PWM1`, `I2C_SCL`)
-- Global nets like `CLK`, `RST`, and `DONE` are clearly placed
-- Each pin includes:
-  - Name
-  - Direction (Input, Output, Bidirectional)
-  - Functional Role (commented or grouped visually)
-
----
-
-## 🔌 Example I/O Mapping (Partial)
-
-| FPGA Pin | VSD FSM Label | Function      | Direction  |
-|----------|----------------|---------------|------------|
-| `IOB_16A`| `GPIO_0`       | General I/O   | In/Out     |
-| `IOB_20A`| `UART_TX`      | Serial TX     | Output     |
-| `IOB_21B`| `UART_RX`      | Serial RX     | Input      |
-| `VCCIO1` | `3V3`          | I/O Voltage   | Power      |
-| `GND`    | `GND`          | Ground        | Power      |
-
-> Pinout strictly follows VSD documentation. All pins are assigned using the physical pin map and verified via constraint/XDC/PCF mapping.
+## **📂 Repository Structure**  
+```
+├── **/Hardware/**  
+│   ├── Schematic (PDF/KiCad)  
+│   ├── PCB Layout (Gerber files + 3D preview)  
+│   ├── **Custom Footprints** (FPGA, motor driver, sensors)  
+│   └── BOM (Bill of Materials)  
+├── **/Firmware/**  
+│   ├── FPGA (Verilog/VHDL for maze-solving logic)  
+│   └── Microcontroller (C++ for sensor/motor control)  
+├── **/Mechanical/**  
+│   ├── Robot Chassis (STL for 3D printing)  
+│   └── Mounting Guides  
+└── **/Documentation/**  
+    ├── Datasheets (FPGA, TB6612FNG, HC-SR04)  
+    └── Maze-Solving Algorithm Explanation  
+```
 
 ---
 
-## 🛠️ Integration Workflow
+## **🤖 How the Robot Works**  
+### **1. Sensing Phase**  
+- Ultrasonic sensors scan **front, left, and right** distances at 20Hz.  
+- Encoders measure **wheel rotation** to calculate distance traveled.  
 
-### ✅ Importing into Altium Designer
+### **2. Decision-Making (FPGA Logic)**  
+- Implements **Flood Fill Algorithm** or **Right-Hand Rule** for maze-solving.  
+- Processes sensor data to **update the maze map** in real-time.  
 
-1. **Download the files** (`.SchLib`, `.PcbLib`, and `images/`)
-2. Open your **Altium project**
-3. Navigate to:
-   - `File > Open > Library`
-   - Add `VSD_FSM.SchLib` and `VSD_FSM.PcbLib`
-4. Drag and drop into your schematic and layout
-5. Use with confidence — **all pads are matched** to the real-world board.
+### **3. Motor Control**  
+- FPGA sends **PWM signals** to the TB6612FNG for:  
+  - **Forward/Reverse motion**  
+  - **Precise turns (90° / 180°)**  
+  - **Speed adjustment** based on error feedback  
 
----
-
-## ⚡ Tips for Using the Footprint
-
-- Double-check the board's orientation when placing the footprint (Pin 1 is marked)
-- Recommended hole size is 0.9 mm with 1.6 mm annular ring
-- Place decoupling capacitors close to the power pins (`VCC`, `GND`)
-- For UART, SPI, or JTAG communication, group pins near edge connectors for easy debugging
-
----
-
-## 🤖 Maze Solver Robot Project Using VSD Squadron FSM FPGA
-
-I have designed and implemented a **Maze Solver Robot** powered by the **VSD Squadron FSM FPGA**. This robot demonstrates real-time decision-making, obstacle detection, and directional control through programmable logic on the FPGA.
-
-### 🚀 Features:
-
-- 🧠 **Powered by VSD FSM FPGA** (based on iCE40UP5K)
-- 🌐 **Bluetooth module** for wireless communication and manual override
-- ⚙️ **TB6612FNG motor driver** for controlling two **DC encoder motors**
-- 🧭 **Three ultrasonic sensors (HC-SR04)** for obstacle detection and wall following
-- 🔄 **Maze solving algorithm** executed in finite-state machine logic on FPGA
-- 📐 **Single-layer PCB** design with integrated Altium schematic and layout
-
-### 📸 Visual Previews
-
-- **Schematic**: Clean component arrangement with FPGA at the core
-- **PCB Layout**: Compact single-layer design for minimal footprint
-- **3D Render**: Assembled robot board with component heights and pin alignment
-
-> 📎 All files are part of the project structure and follow standard Altium conventions.
+### **4. Wireless Debugging (Optional)**  
+- Bluetooth module transmits:  
+  - Sensor readings  
+  - Maze map updates  
+  - Motor speed diagnostics  
 
 ---
 
-## 🧾 File Structure
+## **⚙️ Setup & Calibration**  
+1. **Assemble the PCB**  
+   - Solder components following the **schematic & BOM**.  
+   - Verify **power rails** (5V, 3.3V) before connecting FPGA.  
 
-| Path                     | Description                                      |
-|--------------------------|--------------------------------------------------|
-| `VSD_FSM.SchLib`         | Schematic symbol for Altium                      |
-| `VSD_FSM.PcbLib`         | PCB footprint with silkscreen + drill holes      |
-| `MazeSolverProject/`     | Schematic, layout, and images for robot project  |
-| `images/`                | Preview images for symbol, footprint, and 3D     |
-| `README.md`              | This documentation                              |
+2. **Upload Firmware**  
+   - Program the FPGA with **maze-solving logic** (Verilog/VHDL).  
+   - Flash the microcontroller (if used) for **sensor/motor control**.  
 
----
+3. **Calibrate Sensors & Motors**  
+   - Adjust **ultrasonic sensor thresholds** (min/max range).  
+   - Tune **PID constants** for motor control (if using encoders).  
 
-## 🔗 Resources
-
-- 🔧 [VSD FSM FPGA Docs](https://vsdsquadron.com)
-- 📄 iCE40UP5K Datasheet (Lattice)
-- 📘 IPC-7351B Footprint Standard
-- 📦 [TB6612FNG Motor Driver Datasheet](https://www.sparkfun.com/products/14451)
-- 📘 [HC-SR04 Ultrasonic Sensor Guide](https://randomnerdtutorials.com)
-- 🧰 [Altium Designer User Guide](https://www.altium.com/documentation)
+4. **Test in Maze Environment**  
+   - Start with **simple mazes** (no loops).  
+   - Gradually increase complexity (dead-ends, loops).  
 
 ---
 
-## 👨‍💻 Author
-
-**Your Name**  
-Electronics Design Engineer | FPGA Enthusiast  
-[LinkedIn or GitHub profile link]
+## **📜 License & Collaboration**  
+- **Open-source (MIT License)** – Modify, distribute, or commercialize freely.  
+- **Contributions welcome!** Submit PRs for:  
+  - Improved FPGA logic  
+  - Better PCB layout optimizations  
+  - Alternative maze algorithms  
 
 ---
 
-## 📜 License
+## **📧 Contact**  
+For questions or collaboration requests:  
+- **Email:** [Your Email]  
+- **GitHub:** [Your Profile Link]  
 
-This symbol/footprint library and maze solver robot files are released under the MIT License.  
-Feel free to use, modify, and distribute — with attribution.
+---
 
+### **🚀 Let’s Build the Future of Autonomous Robots!**  
+🔧 **PCB Designers** → Focus on signal integrity & miniaturization.  
+🧠 **FPGA Developers** → Optimize pathfinding algorithms.  
+🤖 **Robotics Enthusiasts** → Test in real-world mazes!  
+
+**Happy Building!** 🎯
