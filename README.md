@@ -318,6 +318,3 @@ sudo make flash # Flash the bitstream onto the FPGA board
 - **Software Tools Required:** Project Icestorm, Yosys, NextPNR
 - **Programming:** Onboard FTDI FT232H enables USB-based programming.
 - **First Project:** A preloaded "blink LED" example is included for quick testing.
-
-#   V S D - S Q U D R O N - F M - F P G A - M A Z E - R O B O T  
- 
