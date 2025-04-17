@@ -22,7 +22,7 @@ This repository provides a complete, **custom-built Altium Designer component** 
 ## 🖼️ Visual Previews
 
 ### 1. 📐 Schematic Symbol
-![Symbol View](PCB and FOOTPRINT/FOOTPRINT/Screenshot 2025-04-16 145335.png)
+![Symbol View]IMAGES\Screenshot 2025-04-16 120811.png)
 > Clean hierarchical layout with labeled I/O banks and global nets.
 
 ### 2. 📏 PCB Footprint
