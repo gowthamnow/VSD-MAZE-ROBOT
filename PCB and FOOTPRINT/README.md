@@ -13,6 +13,30 @@ This project involves a **fully custom-designed PCB** for a **maze-solving robot
 
 ---
 
+## 🖼️ Visual Previews
+
+### 1. 📐 Schematic Symbol
+![Symbol View](images/Screenshot1.png)
+> Clean hierarchical layout with labeled I/O banks and global nets.
+
+### 2. 📏 PCB Footprint
+![Footprint View](images/Screenshot2.png)
+> Accurate footprint with verified pad locations and silkscreen pin labels.
+
+### 3. 🧱 3D Model (Optional)
+![3D Model View](images/Screenshot3.png)
+> Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
+
+### 3. 🧱 3D Model (Optional)
+![3D Model View](images/symbol_view.png)
+> Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
+
+### 3. 🧱 3D Model (Optional)
+![3D Model View](images/Screenshot.png.png)
+> Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
+
+
+---
 ## **🛠️ Hardware Architecture**  
 ### **1️⃣ Custom PCB Design Features**  
 ✔ **Optimized FPGA Footprint** – Designed specifically for the **VSD Squadron FM FPGA** to ensure proper pin-mapping and signal integrity.  
