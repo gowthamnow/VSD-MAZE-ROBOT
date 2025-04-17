@@ -56,7 +56,7 @@ This project involves a **fully custom-designed PCB** for a **maze-solving robot
 ├── **/Hardware/**  
 │   ├── Schematic (PDF/KiCad)  
 │   ├── PCB Layout (Gerber files + 3D preview)  
-
+```
 ---
 
 ## **🤖 How the Robot Works**  
