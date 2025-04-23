@@ -13,7 +13,7 @@ This document provides an overview of the **VSDSquadron FPGA Mini (FM)** board a
   - [`make`](#1️⃣-make)
   - [`make build`](#2️⃣-make-build)
   - [`sudo make flash`](#3️⃣-sudo-make-flash)
-  - 
+
 - [Example Makefile Snippet](#example-makefile-snippet)
 - [Full Workflow Example](#full-workflow-example)
 - [Notes](#notes)
