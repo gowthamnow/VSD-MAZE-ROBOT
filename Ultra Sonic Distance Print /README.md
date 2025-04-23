@@ -113,17 +113,9 @@ ascii_data = (distance_cm / 10000) % 10 + 8'd48;  // Extract each digit and add 
 
 ## 6. Testing Procedures
 
-### 6.1 Simulation
-- Simulate with dummy echo signals
-- Dump `wave.vcd`
-- Check:
-  - Correct distance calculation
-  - Proper UART frame structure (Start, Data, Stop bits)
-
-### 6.2 Hardware Testing
 - **Connections:** TRIG, ECHO, 5V, GND, UART TX
 - **Baud Rate:** 9600
-- **Expected Terminal Output:** "00010" for ~10 cm
+- **Expected Terminal Output:** "10 cm" for ~10 cm
 
 ---
 
