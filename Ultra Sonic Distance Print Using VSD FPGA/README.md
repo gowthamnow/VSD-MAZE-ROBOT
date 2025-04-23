@@ -1,9 +1,9 @@
 
-# Real-Time Sensor Data Acquisition and Transmission System
+# Ultra Sonic Distance Print Using VSD FPGA
 
 ## 1. Introduction
 
-This document details the design and implementation of a **Real-Time Sensor Data Acquisition and Transmission System** using an **FPGA**. The system measures distance via the **HC-SR04 ultrasonic sensor** and transmits the calculated distance over **UART** to a serial terminal.
+This document details the design and implementation of a **Ultra Sonic Distance Print Using VSD FPGA** using an **VSD FPGA**. The system measures distance via the **HC-SR04 ultrasonic sensor** and transmits the calculated distance over **UART** to a serial terminal.
 
 ---
 
