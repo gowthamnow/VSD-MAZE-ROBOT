@@ -6,8 +6,8 @@ This document provides an overview of the **VSDSquadron FPGA Mini (FM)** board a
 
 ## 📋 Table of Contents
 
-- [Board Overview](#board-overview)
-- [Software Installation](#Software-Installaion).
+- [PCB and FOOTPRINT](#PCB-and-FOOTPRINT)
+- [Ultra Sonic Distance Print](#Software-Installaion).
 - [Specifications](#specifications)
 - [Command Breakdown](#command-breakdown)
   - [`make`](#1️⃣-make)
