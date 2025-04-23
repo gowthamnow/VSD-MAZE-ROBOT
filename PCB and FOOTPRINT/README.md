@@ -35,14 +35,14 @@ This project involves a **fully custom-designed PCB** for a **maze-solving robot
 
 > Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
 
-### 4. 🧱 Schematic symbol
+### 4. 📐 Schematic symbol
 
 
 ![Symbol View](images/symbol_view.png)
 
 > Optional STEP model can be added for enclosure fitting and mechanical CAD alignment.
 
-### 5. 🧱 PCB Footprint
+### 5. 📏 PCB Footprint
 
 
 ![Footprint View](images/Screenshot.png)
@@ -113,13 +113,6 @@ This project involves a **fully custom-designed PCB** for a **maze-solving robot
   - Improved FPGA logic  
   - Better PCB layout optimizations  
   - Alternative maze algorithms  
-
----
-
-## **📧 Contact**  
-For questions or collaboration requests:  
-- **Email:** [Your Email]  
-- **GitHub:** [Your Profile Link]  
 
 ---
 
