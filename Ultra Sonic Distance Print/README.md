@@ -44,6 +44,7 @@ Distance (cm) = (Clock Count * 34300) / (2 * 12000000)
 ---
 
 ## 4. Design Schematics
+[▶️ Watch Demo Video](Ultra%20Sonic%20Distance%20Print/maze2.mp4)
 
 ### 4.1 Circuit Diagram
 🖼️
