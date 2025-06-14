@@ -119,10 +119,6 @@ ascii_data = (distance_cm / 10000) % 10 + 8'd48;  // Extract each digit and add 
 
 ---
 
-## 7. Short Video Demonstration
-[![Demo Video](path/to/thumbnail.png)](https://github.com/user-attachments/assets/51817db1-c7d6-4cea-a7fe-6f03eacc206a)
-
----
 
 ## 8. Synthesis & Programming
 
