@@ -18,6 +18,9 @@ The state machine controls the flow of actions between triggering the sensor and
 | `COUNTECHO`  | The system counts the cycles while the **ECHO** pin is high, storing this count in **distanceRAW**. |
 
 [▶️ Watch Maze Demo](maze2.mp4)
+<video width="640" controls>
+  <source src="maze2.mp4" type="video/mp4">
+</video>
 
 
 #### State Transitions:
