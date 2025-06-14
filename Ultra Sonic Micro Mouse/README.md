@@ -17,7 +17,7 @@ The state machine controls the flow of actions between triggering the sensor and
 | `WAIT`       | The system waits for the **ECHO** pin to go high.      |
 | `COUNTECHO`  | The system counts the cycles while the **ECHO** pin is high, storing this count in **distanceRAW**. |
 
-[▶️ Watch Demo Video](Ultra%20Sonic%20Micro%20Mouse/maze2.mp4)
+[▶️ Watch Demo Video](UltraSonicMicroMouse/maze2.mp4)
 
 
 #### State Transitions:
