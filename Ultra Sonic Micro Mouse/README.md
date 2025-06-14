@@ -29,6 +29,8 @@ The state machine controls the flow of actions between triggering the sensor and
 
 ---
 
+[▶️ Watch Maze Demo](VSD-MAZE-ROBOT/Ultra%20Sonic%20Micro%20Mouse/maze2.mp4)
+
 ### **Signal Descriptions**
 
 | **Signal**       | **Direction**  | **Description**                                                   |
