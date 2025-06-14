@@ -41,22 +41,10 @@ Each clock tick = 1 / 12 MHz = 83.33 ns
 Distance (cm) = (Clock Count * 34300) / (2 * 12000000)
 ```
 
----
 
-## 4. Design Schematics
-[▶️ Watch Demo Video](Ultra%20Sonic%20Distance%20Print/maze2.mp4)
+## 4. Annotated Code Listings & Highlights
 
-### 4.1 Circuit Diagram
-🖼️
-
-### 4.2 Block Diagram
-🖼️ 
-
----
-
-## 5. Annotated Code Listings & Highlights
-
-### 5.1 UART Transmitter (8N1)
+### 4.1 UART Transmitter (8N1)
 ```verilog
 // State machine: IDLE -> START -> DATA -> STOP
 always @(posedge clk_baud) begin
@@ -71,7 +59,7 @@ end
 - **Baud Rate**: 9600
 - **Data Format**: 8 data bits, no parity, 1 stop bit
 
-### 5.2 Ultrasonic Sensor Module
+### 4.2 Ultrasonic Sensor Module
 ```verilog
 always @(posedge clk) begin
     case (state)
@@ -91,7 +79,7 @@ end
 distance_cm = (echo_count * 34300) / (2 * 12000000);
 ```
 
-### 5.3 Refresher Timer (250ms pulse)
+### 4.3 Refresher Timer (250ms pulse)
 ```verilog
 always @(posedge clk) begin
     if (counter == 3000000) begin
@@ -104,7 +92,7 @@ always @(posedge clk) begin
 end
 ```
 
-### 5.4 ASCII Conversion and UART Transmission
+### 4.4 ASCII Conversion and UART Transmission
 ```verilog
 // Convert numeric distance to ASCII characters '0' - '9'
 ascii_data = (distance_cm / 10000) % 10 + 8'd48;  // Extract each digit and add ASCII offset
@@ -112,7 +100,7 @@ ascii_data = (distance_cm / 10000) % 10 + 8'd48;  // Extract each digit and add 
 
 ---
 
-## 6. Testing Procedures
+## 5. Testing Procedures
 
 - **Connections:** TRIG, ECHO, 5V, GND, UART TX
 - **Baud Rate:** 9600
@@ -121,28 +109,28 @@ ascii_data = (distance_cm / 10000) % 10 + 8'd48;  // Extract each digit and add 
 ---
 
 
-## 8. Synthesis & Programming
+## 6. Synthesis & Programming
 
-### 8.1 Build Flow
+### 6.1 Build Flow
 ```bash
 git clone https://github.com/gowthamnow/VSD-MAZE-ROBOT
 cd 
 make build  # Yosys + nextpnr + icepack
 ```
 
-### 8.2 Flash FPGA
+### 6.2 Flash FPGA
 ```bash
 sudo make flash  # Upload top.bin via iceprog
 ```
 
-### 8.3 Serial Terminal Monitoring
+### 6.3 Serial Terminal Monitoring
 ```bash
 sudo make terminal  # Monitor at 9600 baud
 ```
 
 ---
 
-## 9. Conclusion
+## 7. Conclusion
 
 ✅ **Complete Working System**
 - Accurate distance measurement with **HC-SR04**
@@ -152,7 +140,7 @@ sudo make terminal  # Monitor at 9600 baud
 
 ---
 
-## 10. References & Acknowledgments
+## 8. References & Acknowledgments
 - [VSDSquadron FPGA Board Datasheet](https://www.vlsisystemdesign.com/vsdsquadronfm/)
 - [Yosys Open Synthesis Suite](https://yosyshq.net/yosys/)
 - [nextpnr Place-and-Route Tool](https://github.com/YosysHQ/nextpnr)
